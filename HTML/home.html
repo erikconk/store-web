@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!--        -----FONTS----         -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <!--        -----CSS----            -->
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/home-images.css">
+
+</head>
+<body>
+
+    <!--         ---TITLE---           -->
+
+    <div class="title-container">
+        <div class="title-row">
+            <h1>Clothing Store</h1>
+        </div>
+        <div class="title-row">
+            <span>by Name Surname</span>
+        </div>
+    </div>
+
+    <!--        ----SEARCH----      -->
+
+    <div class="search-container">
+        <div class="form-row">
+            <span>Search by Reference</span>
+        </div>
+        <div class="form-row">
+            <form method="" >
+                <label for="input-search">(Example:5124-458)</label>
+                <input type="text" maxlength="20" id="input-search">
+                <button>Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!--   -----IMAGES MODELS----    -->
+
+    <div class = images-container>
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="../img/Models/model1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="../img/Models/model2.jpeg" style="width:100%">
+            <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../img/Models/model3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>    
+
+    <!--     ----CONTENT-----     -->
+    <div class="content-container">
+        <div class="marketing content-box">
+            <h2>Homemade High Quality</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptates maxime quasi illum? Error eos eius itaque ullam, quasi enim. Dignissimos qui impedit error voluptatibus, asperiores quod dolorem totam consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit numquam modi deserunt, excepturi animi beatae obcaecati commodi! Laudantium iure libero blanditiis unde veritatis, modi distinctio molestiae reprehenderit ex deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio corrupti pariatur maxime nam officiis nostrum fugiat magni ad ducimus veniam nisi deleniti dolor obcaecati culpa debitis accusamus, cumque neque eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus fugiat mollitia officiis placeat sint iusto doloremque explicabo facere incidunt deleniti sapiente pariatur perferendis unde delectus ex, dolores voluptates inventore cum?
+            </p>
+        </div>
+        <div class="about content-box">
+            <h2>About Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptates maxime quasi illum? Error eos eius itaque ullam, quasi enim. Dignissimos qui impedit error voluptatibus, asperiores quod dolorem totam consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit numquam modi deserunt, excepturi animi beatae obcaecati commodi! Laudantium iure libero blanditiis unde veritatis, modi distinctio molestiae reprehenderit ex deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio corrupti pariatur maxime nam officiis nostrum fugiat magni ad ducimus veniam nisi deleniti dolor obcaecati culpa debitis accusamus, cumque neque eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br><br>
+                 Natus fugiat mollitia officiis placeat sint iusto doloremque explicabo facere incidunt deleniti sapiente pariatur perferendis unde delectus ex, dolores voluptates inventore cum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quo perspiciatis, ipsum enim cum possimus nemo repellendus maxime odio incidunt quam excepturi ullam quod! Iste sed velit vero esse? Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br>
+                Explicabo voluptates aspernatur pariatur ipsam sit hic in sint. Maxime doloribus cumque et tenetur eveniet, nemo vero ab odit eum delectus fugiat?
+            </p>
+        </div>
+    </div>
+
+    <!--        -----JavaScript----            -->
+    <script src = "../JavaScript/home-images.js"></script>
+
+</body>
+</html>
